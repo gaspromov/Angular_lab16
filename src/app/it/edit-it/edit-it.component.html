@@ -1,0 +1,31 @@
+<div class="container" *ngIf="worker">
+    <form action="" [formGroup]="formEdit">
+        <div class="row">
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="firstName" formControlName="firstName">
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="middleName" formControlName="middleName">
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="lastName" formControlName="lastName">
+            </div>
+            <div class="col-2">
+                <input type="date" class="form-control" placeholder="birthDay" formControlName="birthDay" >
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="email" formControlName="email">
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="phone" formControlName="phone" mask="(000)000-00-00" prefix="+7" [showMaskTyped]="false">
+            </div>
+            <div class="col-2 mt-2">
+                <button class="btn btn-sm btn-success" (click)="onEdit()" [disabled]="formEdit.invalid">Изменить</button>
+            </div>
+            <div class="col-2 mt-2">
+                <button class="btn btn-sm btn-danger" (click)="onDelete()">Удалить</button>
+            </div>
+        </div>
+    </form>
+
+</div>

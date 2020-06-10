@@ -32,7 +32,7 @@ export class FilterSortPipe implements PipeTransform {
             }else return 0;
           }))
           break;
-        case "byAge1": 
+        case "byAge2": 
           arr = arr.sort((function (a, b) {
             if ( makeDate(a.birthDay) > makeDate(b.birthDay)){
               return -1;
@@ -41,7 +41,7 @@ export class FilterSortPipe implements PipeTransform {
             }else return 0;
           }))
           break;
-        case "byAge2":
+        case "byAge1":
           arr = arr.sort((function (a, b) {
             if ( makeDate(a.birthDay) < makeDate(b.birthDay)){
               return -1;

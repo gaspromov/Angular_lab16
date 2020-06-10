@@ -10,7 +10,7 @@ export class ViewItComponent implements OnInit {
   department = "it";
   workers: any = [{}];
   add = false;
-  sortParam: string;
+  sortParam: string = 'byId2';
   filterParam: string;
 
   constructor(

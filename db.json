@@ -1,42 +1,5 @@
 {
-  "it": [
-    {
-      "firstName": "Alibeg",
-      "middleName": "Sadykovich",
-      "lastName": "Karabekov",
-      "birthDay": "2000-04-10",
-      "email": "spoox@mail.ru",
-      "phone": "9188426656",
-      "id": 2
-    },
-    {
-      "firstName": "Renat",
-      "middleName": "NNN",
-      "lastName": "nnn",
-      "birthDay": "2000-08-23",
-      "email": "jjj",
-      "phone": "9999999999",
-      "id": 4
-    },
-    {
-      "firstName": "Renat",
-      "middleName": "Mm",
-      "lastName": "Gazratov",
-      "birthDay": "2001-02-22",
-      "email": "gaspromov@mail.ru",
-      "phone": "8918842665",
-      "id": 5
-    },
-    {
-      "firstName": "Renat",
-      "middleName": "ggg",
-      "lastName": "kk",
-      "birthDay": "2001-02-22",
-      "email": "gggaspromov@mail.ru",
-      "phone": "9188426656",
-      "id": 6
-    }
-  ],
+  "it": [],
   "sales": [],
   "delivery": [],
   "legal": []

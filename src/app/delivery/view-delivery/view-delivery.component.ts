@@ -11,7 +11,7 @@ export class ViewDeliveryComponent implements OnInit {
   workers: any = [{}];
   add = false;
   filterParam: string;
-  sortParam: string;
+  sortParam: string = 'byId2';
 
   constructor(
     public http: HttpService,

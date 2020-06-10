@@ -1,6 +1,82 @@
 {
-  "it": [],
-  "sales": [],
-  "delivery": [],
-  "legal": []
+  "it": [
+    {
+      "firstName": "Alibeg",
+      "middleName": "SSS",
+      "lastName": "Karabekov",
+      "birthDay": "2000-04-16",
+      "email": "spoox@mail.ru",
+      "phone": "9640117764",
+      "id": 1
+    },
+    {
+      "firstName": "Anton",
+      "middleName": "SSS",
+      "lastName": "Ivanov",
+      "birthDay": "2001-02-22",
+      "email": "ggggg@gmail.com",
+      "phone": "9640117764",
+      "id": 2
+    }
+  ],
+  "sales": [
+    {
+      "firstName": "Alibeg",
+      "middleName": "SSS",
+      "lastName": "Karabekov",
+      "birthDay": "2001-02-22",
+      "email": "spoox@gmail.com",
+      "phone": "9640117764",
+      "id": 1
+    },
+    {
+      "firstName": "Marat",
+      "middleName": "LLL",
+      "lastName": "Uuusshh",
+      "birthDay": "2000-04-16",
+      "email": "uuuu@mail.eu",
+      "phone": "9188426656",
+      "id": 2
+    }
+  ],
+  "delivery": [
+    {
+      "firstName": "Alibeg",
+      "middleName": "SSS",
+      "lastName": "Karabekov",
+      "birthDay": "2000-04-16",
+      "email": "spoox@mail.ru",
+      "phone": "9640117764",
+      "id": 1
+    },
+    {
+      "firstName": "Anton",
+      "middleName": "SSS",
+      "lastName": "Ivanov",
+      "birthDay": "2001-02-22",
+      "email": "ggggg@gmail.com",
+      "phone": "9640117764",
+      "id": 2
+    }],
+  "legal": [
+    
+    {
+      "firstName": "Alibeg",
+      "middleName": "SSS",
+      "lastName": "Karabekov",
+      "birthDay": "2000-04-16",
+      "email": "spoox@mail.ru",
+      "phone": "9640117764",
+      "id": 1
+    },
+    {
+      "firstName": "Anton",
+      "middleName": "SSS",
+      "lastName": "Ivanov",
+      "birthDay": "2001-02-22",
+      "email": "ggggg@gmail.com",
+      "phone": "9640117764",
+      "id": 2
+    }
+  ]
 }
